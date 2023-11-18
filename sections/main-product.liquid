@@ -552,7 +552,9 @@
 
   {% for block in section.blocks %}
      {% if block.type == 'variant-modal' %}
+       <div id=shopify-{{ section.id }}-{{ block.settings.new_head }} aria-hidden="false">
          <h1>{{ block.settings.new_head }}</h1>
+       </div>
      {% endif %}
   {% endfor %}
 
