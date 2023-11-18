@@ -15,13 +15,6 @@
           "settings": {
           }
         },
-        "caption": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
-          }
-        },
         "price": {
           "type": "price",
           "settings": {
@@ -92,32 +85,28 @@
             "share_label": "Share"
           }
         },
-        "19544283-17d0-42cb-a041-ab858d5325dc": {
-          "type": "text",
+        "67e720eb-0b37-47fe-acc0-34d3890379de": {
+          "type": "variant-modal",
           "settings": {
-            "text": "Text block",
-            "text_style": "body"
+            "new_head": "Pairs well with"
           }
         },
-        "d959596b-4735-4f64-9456-4702301ce779": {
-          "type": "text",
+        "50126a3b-2b40-42e0-a7d9-6637a468eeb0": {
+          "type": "variant-modal",
           "settings": {
-            "text": "Text block",
-            "text_style": "body"
+            "new_head": "Pairs well with"
           }
         },
-        "8f33df0a-02d6-4d65-a0c7-f6dceb68f0b4": {
-          "type": "text",
+        "c47729fe-3f58-464c-975a-826756101ae0": {
+          "type": "variant-modal",
           "settings": {
-            "text": "Text block",
-            "text_style": "body"
+            "new_head": "Pairs well with"
           }
         }
       },
       "block_order": [
         "vendor",
         "title",
-        "caption",
         "price",
         "variant_picker",
         "quantity_selector",
@@ -128,9 +117,9 @@
         "collapsible-row-2",
         "collapsible-row-3",
         "share",
-        "19544283-17d0-42cb-a041-ab858d5325dc",
-        "d959596b-4735-4f64-9456-4702301ce779",
-        "8f33df0a-02d6-4d65-a0c7-f6dceb68f0b4"
+        "67e720eb-0b37-47fe-acc0-34d3890379de",
+        "50126a3b-2b40-42e0-a7d9-6637a468eeb0",
+        "c47729fe-3f58-464c-975a-826756101ae0"
       ],
       "settings": {
         "enable_sticky_info": true,
