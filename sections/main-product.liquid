@@ -74,12 +74,6 @@
         class="product__info-container{% if section.settings.enable_sticky_info %} product__column-sticky{% endif %}"
       >
         {%- assign product_form_id = 'product-form-' | append: section.id -%}
-
-        {% for block in section.blocks %}
-           {% if block.type == 'variant-modal' %}
-               <h1>{{ block.settings.new_head }}</h1>
-           {% endif %}
-        {% endfor %}
         
         {%- for block in section.blocks -%}
           {%- case block.type -%}
