@@ -1,3 +1,9 @@
+<style>
+div.block_modal[aria-hidden="false"] {
+  display:none;
+}
+</style>
+
 <section
   id="MainProduct-{{ section.id }}"
   class="section-{{ section.id }}-padding gradient color-{{ section.settings.color_scheme }}"
@@ -552,7 +558,7 @@
 
   {% for block in section.blocks %}
      {% if block.type == 'variant-modal' %}
-       <div id=shopify-{{ section.id }}-{{ block.settings.new_head }} aria-hidden="false">
+       <div class="block_modal" id=shopify-{{ section.id }}-{{ block.settings.new_head }} aria-hidden="false">
          <h1>{{ block.settings.new_head }}</h1>
        </div>
      {% endif %}
