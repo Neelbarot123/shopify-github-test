@@ -603,9 +603,14 @@ div.block_modal[aria-hidden="false"] {
   {%- endif -%}
 
   <script>
-    document.getElementsByClassName('more-info-box').onclick = function() {
-      console.log("hello");
-    }
+    document.querySelectorAll(".more-info-box").foreach(function(el) {
+       el.addEventListener('click',function(){
+         console.log("worked");
+       })
+    })
+    // document.getElementsByClassName('more-info-box').onclick = function() {
+    //   console.log("hello");
+    // }
   </script>
         
   <script>
