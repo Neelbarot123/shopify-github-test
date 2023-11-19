@@ -63,7 +63,9 @@
       {{ value -}}
       <span class="visually-hidden">{{ 'products.product.variant_sold_out_or_unavailable' | t }}</span>
     </label>
-    <span>Click</span>
+    <span>
+      <button>Clcik</button>
+    </span>
   {%- elsif block.settings.picker_type == 'dropdown' -%}
     <option
       value="{{ value | escape }}"
