@@ -605,7 +605,8 @@ div.block_modal[aria-hidden="false"] {
   <script>
     document.querySelectorAll(".more-info-box").forEach(function(el) {
        el.addEventListener('click',function(){
-         console.log(this);
+         var x = this.getAttribute('data-id');
+         console.log(x);
        })
     })
     // document.getElementsByClassName('more-info-box').onclick = function() {
