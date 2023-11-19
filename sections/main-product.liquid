@@ -603,6 +603,12 @@ div.block_modal[aria-hidden="false"] {
   {%- endif -%}
 
   <script>
+    document.getElementsByClassName('more-info-box').onclick(function() {
+      console.log(this);
+    });
+  </script>
+        
+  <script>
     document.addEventListener('DOMContentLoaded', function () {
       function isIE() {
         const ua = window.navigator.userAgent;
