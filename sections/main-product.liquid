@@ -603,7 +603,7 @@ div.block_modal[aria-hidden="false"] {
   {%- endif -%}
 
   <script>
-    document.getElementsByClassName('more-info-box').addEventListener('click',function() {
+    document.getElementsByClassName('more-info-box').onclick = function() {
       console.log(this);
     });
   </script>
