@@ -64,7 +64,7 @@
       <span class="visually-hidden">{{ 'products.product.variant_sold_out_or_unavailable' | t }}</span>
     </label>
     <span>
-      <button>Clcik</button>
+      <button data-id=shopify-{{ section.id }}-{{ value }}>Clcik</button>
     </span>
   {%- elsif block.settings.picker_type == 'dropdown' -%}
     <option
