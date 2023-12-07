@@ -74,7 +74,7 @@
 /* base */
 
 @font-face {
-    font-family: 'EB Garamond';
+    font-family: 'EB Garamond', serif;
     src: url("{{ 'EBGaramond-Medium.woff2' | asset_url }}") format('woff2');
     font-weight: 500;
     font-style: normal;
@@ -3532,5 +3532,5 @@ details-disclosure > details {
 }
 
 h1,h2,h3,h4 {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'EB Garamond', serif;
 }
