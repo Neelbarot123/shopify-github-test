@@ -3503,10 +3503,10 @@ details-disclosure > details {
 }
 
 
-@font-face {
+/* @font-face {
 font-family: "NotoSans-Black";
 src: url("NotoSans-Black.woff2") format("woff2"),
 url("NotoSans-Black.woff") format("woff");
 }
  
-h1,h2,h3, h4, h5, body { font-family: "NotoSans-Black" !important; }
+h1,h2,h3, h4, h5, body { font-family: "NotoSans-Black" !important; } */
