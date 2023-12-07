@@ -76,16 +76,15 @@
 @font-face {
 font-family: 'EB Garamond';
 src: url("EBGaramond-Medium.woff2") format("woff2"),
-url("EBGaramond-Medium.woff") format("woff");
 }
 
-@font-face {
+/* @font-face {
     font-family: 'EB Garamond', serif;
     src: url("{{ 'EBGaramond-Medium.woff2' | asset_url }}") format('woff2');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
-}
+} */
 
 @font-face {
     font-family: 'Noto Sans', sans-serif;
