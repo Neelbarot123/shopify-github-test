@@ -74,7 +74,7 @@
 /* base */
 
 @font-face {
-font-family: 'EB Garamond', serif;
+font-family: 'EBGaramond-Medium';
 src: url("EBGaramond-Medium.woff2") format("woff2"),
 url("EBGaramond-Medium.woff") format("woff");
 }
@@ -3538,5 +3538,5 @@ details-disclosure > details {
 }
 
 h1,h2,h3,h4 {
-  font-family: 'EB Garamond', serif;
+  font-family: 'EBGaramond-Medium';
 }
