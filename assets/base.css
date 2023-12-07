@@ -3502,11 +3502,11 @@ details-disclosure > details {
 }
 
 @font-face {
-    font-family: 'Noto Sans', sans-serif;
-    src: url("https://cdn.shopify.com/s/files/1/0550/2579/5278/files/NotoSans-Medium.ttf?v=1701924010") format('ttf');
+    font-family: 'myfont';
+    src: url('https://cdn.shopify.com/s/files/1/0550/2579/5278/files/NotoSans-Medium.ttf?v=1701924010') format('ttf');
 }
 
 h1,h2,h3,h4,h5,h6,p,body {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'myfont';
   font-weight:600;
 }
