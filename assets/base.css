@@ -74,8 +74,8 @@
 /* base */
 
 @font-face {
-  font-family: 'EB Garamond';
-  src: url('') format('ttf');
+  font-family: 'EB Garamond', serif;
+  src: url('https://cdn.shopify.com/s/files/1/0550/2579/5278/files/EBGaramond-Italic-VariableFont_wght.ttf?v=1701924572') format('ttf');
 }
 
 
@@ -281,7 +281,7 @@ h5,
 .h3,
 .h4,
 .h5 {
-  font-family: 'EB Garamond', serif;
+  font-family: 'Noto Sans', sans-serif;
   font-style: var(--font-heading-style);
   font-weight: var(--font-heading-weight);
   letter-spacing: calc(var(--font-heading-scale) * 0.06rem);
