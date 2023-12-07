@@ -85,8 +85,8 @@
 } */
 
 @font-face {
-  font-family: 'Noto Sans', sans-serif;
-  src: url('{{ 'NotoSans-Medium.ttf' | asset_url }}') format('ttf');
+  font-family: 'EB Garamond', serif;
+  src: url('{{ 'EBGaramond-Italic-VariableFont_wght.ttf' | asset_url }}') format('ttf');
   /* Add other font properties if necessary */
 }
 
