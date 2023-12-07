@@ -3501,6 +3501,7 @@ details-disclosure > details {
   }
 }
 
-h1,h2,h3,h4 {
-  font-family: 'EB Garamond', serif !important;
+@font-face {
+    font-family: '';
+    src: url({{ 'https://cdn.shopify.com/s/files/1/0550/2579/5278/files/EBGaramond-Italic-VariableFont_wght.ttf?v=1701924572' }}) format('ttf');
 }
