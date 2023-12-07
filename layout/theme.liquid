@@ -281,6 +281,39 @@
         document.documentElement.classList.add('shopify-design-mode');
       }
     </script>
+    <style>
+      @font-face {
+    font-family: 'EB Garamond';
+    src: url('EBGaramond-Medium') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans', sans-serif;
+    src: url("{{ 'NotoSansCondensed-Regular' | asset_url }}") format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans', sans-serif;
+    src: url("{{ 'NotoSansCondensed-Medium' | asset_url }}") format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans', sans-serif;
+    src: url("{{ 'NotoSansCondensed-SemiBold' | asset_url }}") format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+    </style>
   </head>
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
