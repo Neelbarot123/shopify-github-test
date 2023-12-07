@@ -3530,3 +3530,8 @@ details-disclosure > details {
     --border-offset: 0px; /* Prevent the border from growing on buttons when this effect is on. */
   }
 }
+
+h1,h2,h3,h4 {
+  font-family: 'EB Garamond';
+  font-weight: 500;
+}
