@@ -3503,7 +3503,7 @@ details-disclosure > details {
 
 @font-face {
     font-family: 'EB Garamond';
-    src: url("{{ https://cdn.shopify.com/s/files/1/0550/2579/5278/files/EBGaramond-Italic-VariableFont_wght.ttf?v=1701924572 }}") format('ttf');
+    src: url(https://cdn.shopify.com/s/files/1/0550/2579/5278/files/EBGaramond-Italic-VariableFont_wght.ttf?v=1701924572) format('ttf');
 }
 
 h1,h2,h3,h4,h5,h6,p,body {
