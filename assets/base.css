@@ -82,7 +82,7 @@
 }
 
 @font-face {
-    font-family: 'Noto Sans Condensed';
+    font-family: 'Noto Sans', sans-serif;
     src: url("{{ 'NotoSansCondensed-Regular.woff2' | asset_url }}") format('woff2');
     font-weight: normal;
     font-style: normal;
@@ -90,7 +90,7 @@
 }
 
 @font-face {
-    font-family: 'Noto Sans Condensed';
+    font-family: 'Noto Sans', sans-serif;
     src: url("{{ 'NotoSansCondensed-Medium.woff2' | asset_url }}") format('woff2');
     font-weight: 500;
     font-style: normal;
@@ -98,7 +98,7 @@
 }
 
 @font-face {
-    font-family: 'Noto Sans Condensed';
+    font-family: 'Noto Sans', sans-serif;
     src: url("{{ 'NotoSansCondensed-SemiBold.woff2' | asset_url }}") format('woff2');
     font-weight: 600;
     font-style: normal;
