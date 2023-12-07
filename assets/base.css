@@ -86,7 +86,7 @@
 
 @font-face {
   font-family: 'EB Garamond';
-  src: url('{{ 'EBGaramond-Italic-VariableFont_wght.ttf' | asset_url }}') format('ttf');
+  src: url('{{ 'EBGaramond-Italic-VariableFont_wght' | asset_url }}') format('ttf');
   /* Add other font properties if necessary */
 }
 
