@@ -84,6 +84,11 @@
   src: url("{{ 'files/EBGaramond-Italic-VariableFont_wght.ttf' | file_url }}") format("ttf");
 } */
 
+@font-face {
+  font-family: 'Noto Sans';
+  src: url('{{ 'NotoSans-Medium.ttf' | asset_url }}') format('ttf');
+  /* Add other font properties if necessary */
+}
 
 .no-js:not(html) {
   display: none !important;
