@@ -83,7 +83,7 @@
 
 @font-face {
     font-family: 'Noto Sans', sans-serif;
-    src: url("{{ 'NotoSansCondensed-Regular' | asset_url }}") format('woff2');
+    src: url("{{ 'NotoSansCondensed-Regular.woff2' | asset_url }}") format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -91,7 +91,7 @@
 
 @font-face {
     font-family: 'Noto Sans', sans-serif;
-    src: url("{{ 'NotoSansCondensed-Medium' | asset_url }}") format('woff2');
+    src: url("{{ 'NotoSansCondensed-Medium.woff2' | asset_url }}") format('woff2');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -99,7 +99,7 @@
 
 @font-face {
     font-family: 'Noto Sans', sans-serif;
-    src: url("{{ 'NotoSansCondensed-SemiBold' | asset_url }}") format('woff2');
+    src: url("{{ 'NotoSansCondensed-SemiBold.woff2' | asset_url }}") format('woff2');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -3532,5 +3532,5 @@ details-disclosure > details {
 }
 
 h1,h2,h3,h4 {
-  font-family: 'EB Garamond';
+  font-family: 'Noto Sans', sans-serif;
 }
