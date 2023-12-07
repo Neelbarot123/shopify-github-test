@@ -73,22 +73,7 @@
 
 /* base */
 
-/* @font-face {
-  font-family: 'EB Garamond';
-  /* src: url('https://cdn.shopify.com/s/files/1/0550/2579/5278/files/EBGaramond-Italic-VariableFont_wght.ttf?v=1701924572' | file_url ) format('ttf'); */
-  src: url("{{ 'https://cdn.shopify.com/s/files/1/0550/2579/5278/files/EBGaramond-Italic-VariableFont_wght.ttf?v=1701924572' | file_url }}") format("ttf");
-} */
 
-/* @font-face {
-  font-family: 'EB Garamond';
-  src: url("{{ 'files/EBGaramond-Italic-VariableFont_wght.ttf' | file_url }}") format("ttf");
-} */
-
-@font-face {
-  font-family: 'EB Garamond';
-  src: url('{{ 'EBGaramond-Italic-VariableFont_wght' | asset_url }}') format('ttf');
-  /* Add other font properties if necessary */
-}
 
 .no-js:not(html) {
   display: none !important;
@@ -3516,3 +3501,12 @@ details-disclosure > details {
     --border-offset: 0px; /* Prevent the border from growing on buttons when this effect is on. */
   }
 }
+
+
+@font-face {
+font-family: "EBGaramond-Italic-VariableFont_wght";
+src: url("EBGaramond-Italic-VariableFont_wght.woff2") format("woff2"),
+url("EBGaramond-Italic-VariableFont_wght.woff") format("woff");
+}
+ 
+Add Classes here with comma { font-family: "EBGaramond-Italic-VariableFont_wght"!important; }
